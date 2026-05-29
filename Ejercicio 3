@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function div0(){
+            document.write("No se puede dividir por cero (0)")
+            throw new Error()
+        }
+        num1 = parseInt(prompt("Ingrese el primer numero: "))
+        num2 = parseInt(prompt("Ingrese el segundo numero: "))
+        operador = prompt("Ingrese el operador: ")
+        let resultado = operador == "+" ? num1+num2 : operador == "-" ? num1-num2 : operador == "*" ? num1*num2 : operador == "/" ? num1/num2 : operador == "**" ? num1**num2 : "Intodusca un valor valdio"
+        resultado = operador == "/" ? num2 == 0 ? div0() : resultado : resultado
+        document.write("El resultado es: " + resultado)
+        console.log("El resultado es: " + resultado)
+    </script>
+</body>
+</html>
