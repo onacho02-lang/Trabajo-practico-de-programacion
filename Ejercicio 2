@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let ventas = 2000
+        let precio = 1800
+        document.write("La cantidad de dinero ganado al final del dia fue: " + precio*ventas + "$")
+        console.log("La cantidad de dinero ganado al final del dia fue: " + precio*ventas + "$")
+    </script>
+</body>
+</html>
