@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let valor1 = 42;
+        let valor2 = "42";
+        let valor3 = true;
+        let valor4 = null;
+        let valor5;
+        document.write("El tipo de variable: " + typeof(valor1))
+        document.write("<br>El tipo de variable es: " + typeof(valor2))
+        document.write("<br>El tipo de variable es: " + typeof(valor3))
+        document.write("<br>El tipo de variable es: " + typeof(valor4))
+        document.write("<br>El tipo de variable es: " + typeof(valor5))
+    </script>
+</body>
+</html>
