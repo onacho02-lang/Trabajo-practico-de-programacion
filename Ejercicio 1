@@ -9,7 +9,7 @@
     <script>
         num1 = parseInt(prompt("Ingrese el primer numero: "))
         num2 = parseInt(prompt("Ingrese el segundo numero: "))
-        document.write("Suma: " + (num1+num2) + "<br>Resta: " + (num1-num2) + "<br>Multiplicacion: " + (num1*num2) + "<br>Division: " + (num1/num2))
+        document.write("Suma: " + (num1+num2) + "<br>Resta: " + (num1-num2) + "<br>Multiplicacion: " + (num1*num2) + "<br>Division: " + (num1/num2) + "<br>Potencia: " + num1**num2)
     </script>
 </body>
 </html>
