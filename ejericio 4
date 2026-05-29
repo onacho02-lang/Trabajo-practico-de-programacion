@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        resultado = 10 > 5 == true ? true : false
+        document.write("El valor de la declaracion 10 > 5 es: " + resultado)
+        resultado = 3 === "3" == true ? true : false
+        document.write("<br>El valor de la declaracion 3 === '3'(string) es: " + resultado)
+        resultado = 3 == "3" == true ? true : false
+        document.write("<br>El valor de la declaracion 3 == '3'(string) es: " + resultado)
+        resultado = "Hola" != "hola" == true ? true : false
+        document.write("<br>El valor de la declaracion 'Hola'(string) != 'hola'(string) es: " + resultado)
+        resultado = 7 <= 7 == true ? true : false
+        document.write("<br>El valor de la declaracion 7 <= 7 es: " + resultado)
+        resultado = null == undefined == true ? true : false
+        document.write("<br>El valor de la declaracion null == undefined es: " + resultado)
+        resultado = null === undefined == true ? true : false
+        document.write("<br>El valor de la declaracion null === undefined es: " + resultado)
+
+    </script>
+</body>
+</html>
